@@ -1,50 +1,33 @@
-body{
-  /*background-color: turquoise;*/
-}
-a:hover{
-  cursor: pointer;
-}
-nav{
-  height: 90px;
+.App {
+  text-align: center;
 }
 
-.ArticleLink{
-  color: turquoise;
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.card{
-  border: none;
-}
-
-.HomeCard:hover{
-  cursor: pointer;
-}
-
-.vertical-center {
-  min-height: 75%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 75vh; /* These two lines are counted as one :-)       */
-
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-#jumboButton{
-  color: white; 
-
-  background-color: rgb(64, 205, 224);
-}
-#jumboButton:hover{
-  color: black;
+.App-link {
+  color: #61dafb;
 }
 
-#Jumbo{
-  background-image: url('./Images/Mountains2.jpg');
-  background-repeat: no-repeat;
-  height: 400px;
-}
-
-.Articles{
-  margin: auto;
-  padding-top: 100px;
-  max-width: 700px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
